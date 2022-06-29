@@ -12,7 +12,7 @@ else
 	OPEN=open
 endif
 
-all: s21_matrix.a test gcov_report
+all: s21_matrix.a test
 
 s21_matrix.a:
 	$(CC) $(CFLAGS) -c s21_matrix.c
